@@ -1,7 +1,7 @@
 # -------------------------------------------------------------------------------------------------
 #
 # layer for download and verifying
-FROM debian:stretch-slim as graylog-downloader
+FROM debian:stretch-slim
 
 ARG VCS_REF
 ARG GRAYLOG_VERSION
